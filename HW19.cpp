@@ -106,7 +106,7 @@ int main()
     const char* filePath = "file.bin";
 
     FILE* file;
-    if (!openFile(file, filePath, "ab")) {
+    if (!openFile(file, filePath, "wb")) {
         //return 1;
     }
 
